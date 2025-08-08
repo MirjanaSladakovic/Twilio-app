@@ -1,0 +1,25 @@
+# Android
+*.iml
+.gradle/
+local.properties
+/.idea/
+/build/
+/app/build/
+/captures/
+/*.keystore
+*.jks
+
+# Node/Server
+Server/node_modules/
+Server/.twilio-functions
+Server/.twilio-assets
+
+# Secrets
+Server/.env
+Server/test-call.js
+Server/.twiliodeployinfo
+*.env
+*.secret
+*.key
+google-services.json
+*.json # if it contains service accounts; prefer not to commit
